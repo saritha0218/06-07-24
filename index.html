@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: black;
+            position: fixed;
+            padding: 15px;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .ion{
+            font-size: 25px;
+            color: white;
+            padding: 10px;
+            background-color: rgb(156, 148, 148);
+
+        }
+        
+        .ion:hover{
+            color: rgb(156, 148, 148);
+            background-color: black ;
+        }
+
+        .icon:hover{
+            color: rgb(156, 148, 148);
+            background-color: black ;
+        }
+        .icon{
+            font-size: 25px;
+            position: absolute;
+            right: 30px;
+            color: white;
+            padding: 10px;
+            margin-right: 10px;
+            background-color: rgb(156, 148, 148); 
+        }
+
+        @media screen and (max-width : 600px){
+            header{
+                display: none;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <ion-icon class="ion" name="menu-outline"></ion-icon>
+    <ion-icon class="ion" name="person-outline"></ion-icon>
+    <ion-icon class="ion" name="heart-outline"></ion-icon>
+    <ion-icon class="ion" name="chatbubble-outline"></ion-icon>
+    <ion-icon class="ion" name="at-outline"></ion-icon>
+    <ion-icon class="ion" name="add-outline"></ion-icon>
+    <ion-icon class="icon" name="search-outline"></ion-icon>
+   </header>
+
+   <img src="https://www.w3schools.com/w3images/la.jpg">
+
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
